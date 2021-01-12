@@ -1,0 +1,78 @@
+html {
+    font-size: 10px;
+  }
+body{
+    background-color:black;
+    color:#fff;
+    font-family:'arial';
+  }
+  
+p{
+    font-size:5rem;
+  }
+.main-hd{
+    background-attachment:fixed;
+    background-image:url('https://www.xtrafondos.com/wallpapers/resoluciones/19/edificios-ciudad-de-noche_2560x1440_3183.jpg');
+    background-size:100%;
+    -webkit-background-size:cover
+    -ms-background-size:cover;
+    -ms-background-size:cover;
+    background-repeat:no-repeat;
+    max-height:100%;
+  }
+  
+div.main-tit{
+    background-color:rgba(0,0,0,0.5);
+    hanging-punctuation:25%;
+  }
+  
+.tit-prin{
+    margin-top:35%;
+    font-size:5rem;
+  }
+  
+.content{
+    background-color:#000;
+    border-radius:10px;
+    margin-top:10px;
+    margin-bottom:50px;
+  }
+  
+p.content-text{
+    font-size:2.5rem;
+  }
+  
+div.col-md-6.ush{
+    border-left-color:#0000;
+  }
+  
+div.col-md-6.tora{
+    border-left:1px solid #a70404;
+  }
+  
+a{
+    color:#a70404;
+  }
+  
+a:visited{
+    color:#a70404;
+  }
+  
+a:hover{
+    color:#a70404;
+  }
+  
+@media screen and (min-width: 250px) and (max-width: 992px) {
+    div.col-md-6.tora{
+    border-left: none !important;
+    border-top: 1px solid #a70404;
+    }
+    
+.tit-prin{
+    font-size:4rem;
+  }
+    
+p.content-text {
+      font-size: 2rem;
+    }
+  }
